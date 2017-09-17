@@ -1,0 +1,3 @@
+<view class="toast {{Toast.show?'toast-show':''}}">
+    <text>{{Toast.content}}</text>
+</view>

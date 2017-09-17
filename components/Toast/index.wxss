@@ -1,0 +1,25 @@
+.toast {
+    max-width: 750rpx;
+    position: fixed;
+    bottom: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #000000;
+    opacity: 0;
+    padding: 20rpx 40rpx;
+    z-index: 999;
+    border-radius: 8rpx;
+    transition: all 0.5s ease;
+    text-align: center;
+  }
+  .toast-show {
+    z-index: 9999;
+    opacity: 0.7;
+  }
+  .toast text {
+    color: #ffffff;
+    font-size: 32rpx;
+    opacity: 1;
+    display: inline-block;
+    max-width: 750rpx;
+  }
