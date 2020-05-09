@@ -140,7 +140,7 @@
     ```
 
 ### 原理
-详细原理请查看这篇文章[小程序组件化编程](https://snayan.github.io/2017/09/17/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%BB%84%E4%BB%B6%E5%8C%96%E7%BC%96%E7%A8%8B/)
+详细原理请查看这篇文章[小程序组件化编程](https://snayan.github.io/post/mini_program_component_programming/)
 
 -   在小程序启动时劫获小程序的Page函数，在自定义的Page函数中注入子组件的相关数据到父级页面中。
 -   将组件的data注入到父级页面的data下，但是组件的data会以组件name为命名空间，以隔离父级data或其他组件的data
